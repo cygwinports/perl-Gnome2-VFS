@@ -1,0 +1,146 @@
+perl-Gnome2-VFS
+-------------------------------------------
+Perl bindings for the gnome-vfs2 library.
+
+Runtime requirements:
+  cygwin-1.5.22-1
+  glib2-2.12.4-1
+  gnome-vfs2-2.16.2-1
+  perl-5.8.7-5
+  perl-Glib-1.140-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.22-1
+  binutils-20060817-1
+  cygport-0.2.6-1
+  gcc-core-3.4.4-1
+  make-3.81-1
+  perl-5.8.7-5
+  perl-ExtUtils-Depends-0.205-1
+  perl-ExtUtils-PkgConfig-1.07-1
+
+Canonical homepage:
+  http://gtk2-perl.sourceforge.net/
+
+Canonical download:
+  http://prdownloads.sourceforge.net/gtk2-perl/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Gnome2-VFS-1.061-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./Gnome2-VFS-1.061-X.cygport all
+
+This will create:
+  /usr/src/perl-Gnome2-VFS-1.061-X-src.tar.bz2
+  /usr/src/perl-Gnome2-VFS-1.061-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-Gnome2-VFS.sh
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Address.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Application.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/ApplicationRegistry.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Async.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Async/Handle.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/DNSSD.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/DNSSD/Browse/Handle.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/DNSSD/Resolve/Handle.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Directory.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Directory/Handle.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Drive.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/FileInfo.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Handle.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Install/Files.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Install/doctypes
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Install/vfs.typemap
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Install/vfs2perl-autogen.h
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Install/vfs2perl-gtypes.h
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Install/vfs2perl-version.h
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Install/vfs2perl.h
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Install/vfs2perl.typemap
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Mime.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Mime/Application.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Mime/Monitor.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Mime/Type.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Monitor.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Monitor/Handle.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Resolve/Handle.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/URI.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Volume.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/VolumeMonitor.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Xfer.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/index.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/main.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/VFS/.packlist
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/VFS/VFS.bs
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/VFS/VFS.dll
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/VFS/libVFS.dll.a
+  /usr/share/doc/Cygwin/perl-Gnome2-VFS-1.061.README
+  /usr/share/doc/perl-Gnome2-VFS-1.061/ChangeLog
+  /usr/share/doc/perl-Gnome2-VFS-1.061/LICENSE
+  /usr/share/doc/perl-Gnome2-VFS-1.061/NEWS
+  /usr/share/doc/perl-Gnome2-VFS-1.061/README
+  /usr/share/man/man3/Gnome2.VFS.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.Address.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.Application.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.ApplicationRegistry.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.Async.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.Async.Handle.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.DNSSD.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.DNSSD.Browse.Handle.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.DNSSD.Resolve.Handle.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.Directory.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.Directory.Handle.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.Drive.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.FileInfo.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.Handle.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.Mime.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.Mime.Application.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.Mime.Monitor.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.Mime.Type.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.Monitor.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.Monitor.Handle.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.Resolve.Handle.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.URI.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.Volume.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.VolumeMonitor.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.Xfer.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.index.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.main.3pm.gz
+  /usr/share/perl/cygwin-pods/5.8/Gnome2-VFS.pod
+
+--------------------
+
+Port Notes:
+
+----- version 1.061-1 -----
+Version bump.
+
+----- version 1.060-1 -----
+Version bump.
+Source package is now cygport driven.
+
+----- version 1.041-1 -----
+Version bump.
+
+----- version 1.022-1 -----
+New upstream version.
+
+----- version 1.003-2 -----
+Rebuilt for perl-5.8.6.
+
+----- version 1.003-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
