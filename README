@@ -3,20 +3,20 @@ perl-Gnome2-VFS
 Perl bindings for the gnome-vfs2 library.
 
 Runtime requirements:
-  cygwin-1.5.22-1
-  glib2-2.12.4-1
-  gnome-vfs2-2.16.2-1
-  perl-5.8.7-5
-  perl-Glib-1.140-1
+  cygwin-1.5.24-2
+  glib2-2.14.2-1
+  gnome-vfs2-2.20.1-1
+  perl-5.8.8-4
+  perl-Glib-1.162-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.22-1
+  cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.2.6-1
-  gcc-core-3.4.4-1
+  cygport-0.3.7-1
+  gcc-core-3.4.4-3
   make-3.81-1
-  perl-5.8.7-5
+  perl-5.8.8-4
   perl-ExtUtils-Depends-0.205-1
   perl-ExtUtils-PkgConfig-1.07-1
 
@@ -24,20 +24,20 @@ Canonical homepage:
   http://gtk2-perl.sourceforge.net/
 
 Canonical download:
-  http://prdownloads.sourceforge.net/gtk2-perl/
+  http://downloads.sourceforge.net/gtk2-perl/
 
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Gnome2-VFS-1.061-X-src.tar.bz2
+  unpack perl-Gnome2-VFS-1.080-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./Gnome2-VFS-1.061-X.cygport all
+  cygport ./Gnome2-VFS-1.080-X.cygport all
 
 This will create:
-  /usr/src/perl-Gnome2-VFS-1.061-X-src.tar.bz2
-  /usr/src/perl-Gnome2-VFS-1.061-X.tar.bz2
+  /usr/src/perl-Gnome2-VFS-1.080-X-src.tar.bz2
+  /usr/src/perl-Gnome2-VFS-1.080-X.tar.bz2
 
 -------------------------------------------
 
@@ -45,7 +45,6 @@ Files included in the binary package:
 
   /etc/postinstall/perl-Gnome2-VFS.sh
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS.pod
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Address.pod
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Application.pod
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/ApplicationRegistry.pod
@@ -73,6 +72,7 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Mime/Type.pod
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Monitor.pod
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Monitor/Handle.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Resolve.pod
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Resolve/Handle.pod
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/URI.pod
   /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/VFS/Volume.pod
@@ -84,11 +84,11 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/VFS/VFS.bs
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/VFS/VFS.dll
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/VFS/libVFS.dll.a
-  /usr/share/doc/Cygwin/perl-Gnome2-VFS-1.061.README
-  /usr/share/doc/perl-Gnome2-VFS-1.061/ChangeLog
-  /usr/share/doc/perl-Gnome2-VFS-1.061/LICENSE
-  /usr/share/doc/perl-Gnome2-VFS-1.061/NEWS
-  /usr/share/doc/perl-Gnome2-VFS-1.061/README
+  /usr/share/doc/Cygwin/perl-Gnome2-VFS-1.080.README
+  /usr/share/doc/perl-Gnome2-VFS-1.080/ChangeLog
+  /usr/share/doc/perl-Gnome2-VFS-1.080/LICENSE
+  /usr/share/doc/perl-Gnome2-VFS-1.080/NEWS
+  /usr/share/doc/perl-Gnome2-VFS-1.080/README
   /usr/share/man/man3/Gnome2.VFS.3pm.gz
   /usr/share/man/man3/Gnome2.VFS.Address.3pm.gz
   /usr/share/man/man3/Gnome2.VFS.Application.3pm.gz
@@ -109,6 +109,7 @@ Files included in the binary package:
   /usr/share/man/man3/Gnome2.VFS.Mime.Type.3pm.gz
   /usr/share/man/man3/Gnome2.VFS.Monitor.3pm.gz
   /usr/share/man/man3/Gnome2.VFS.Monitor.Handle.3pm.gz
+  /usr/share/man/man3/Gnome2.VFS.Resolve.3pm.gz
   /usr/share/man/man3/Gnome2.VFS.Resolve.Handle.3pm.gz
   /usr/share/man/man3/Gnome2.VFS.URI.3pm.gz
   /usr/share/man/man3/Gnome2.VFS.Volume.3pm.gz
@@ -121,6 +122,9 @@ Files included in the binary package:
 --------------------
 
 Port Notes:
+
+----- version 1.080-1 -----
+Version bump for GNOME 2.20.
 
 ----- version 1.061-1 -----
 Version bump.
