@@ -3,20 +3,21 @@ perl-Gnome2-VFS
 Perl bindings for the gnome-vfs2 library.
 
 Runtime requirements:
-  cygwin-1.5.25-7
-  glib2-2.14.6-1
-  gnome-vfs2-2.20.1-1
-  perl-5.10.0-3
-  perl-Glib-1.164-1
+  cygwin-1.7.0-44
+  libgcc1-4.3.2-2
+  libglib2.0_0-2.20.0-1
+  libgnomevfs2_0-2.26.0-1
+  perl-5.10.0-5
+  perl-Glib-1.220-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  binutils-20060817-1
-  cygport-0.3.9-1
-  gcc-core-3.4.4-3
-  make-3.81-1
-  perl-ExtUtils-Depends-0.205-2
-  perl-ExtUtils-PkgConfig-1.10-1
+  binutils-20080624-2
+  cygport-0.9.6-1
+  gcc4-core-4.3.2-2
+  make-3.81-2
+  perl-ExtUtils-Depends-0.301-1
+  perl-ExtUtils-PkgConfig-1.12-1
 
 Canonical homepage:
   http://gtk2-perl.sourceforge.net/
@@ -79,10 +80,10 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/VFS/main.pod
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gnome2/VFS/.packlist
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gnome2/VFS/VFS.dll
-  /usr/share/doc/perl-Gnome2-VFS-1.081/ChangeLog
-  /usr/share/doc/perl-Gnome2-VFS-1.081/LICENSE
-  /usr/share/doc/perl-Gnome2-VFS-1.081/NEWS
-  /usr/share/doc/perl-Gnome2-VFS-1.081/README
+  /usr/share/doc/perl-Gnome2-VFS/ChangeLog
+  /usr/share/doc/perl-Gnome2-VFS/LICENSE
+  /usr/share/doc/perl-Gnome2-VFS/NEWS
+  /usr/share/doc/perl-Gnome2-VFS/README
   /usr/share/man/man3/Gnome2.VFS.3pm.gz
   /usr/share/man/man3/Gnome2.VFS.Address.3pm.gz
   /usr/share/man/man3/Gnome2.VFS.Application.3pm.gz
@@ -116,30 +117,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 1.081-1 -----
-Version bump, built for perl-5.10.
-
------ version 1.080-1 -----
-Version bump for GNOME 2.20.
-
------ version 1.061-1 -----
-Version bump.
-
------ version 1.060-1 -----
-Version bump.
-Source package is now cygport driven.
-
------ version 1.041-1 -----
-Version bump.
-
------ version 1.022-1 -----
-New upstream version.
-
------ version 1.003-2 -----
-Rebuilt for perl-5.8.6.
-
------ version 1.003-1 -----
-Initial release for Cygwin.
+----- version 1.081-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:

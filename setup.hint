@@ -1,4 +1,4 @@
 category: Perl Gnome
-requires: cygwin glib2 gnome-vfs2 perl perl-Glib
+requires: cygwin libgcc1 libglib2.0_0 libgnomevfs2_0 perl perl-Glib
 sdesc: "Perl bindings for gnome-vfs2"
 ldesc: "Perl bindings for the gnome-vfs-2.0 library."
