@@ -1,8 +1,8 @@
 inherit gtk2-perl
 
 NAME="perl-Gnome2-VFS"
-VERSION=1.082
-RELEASE=2
+VERSION=1.083
+RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl bindings for gnome-vfs2"
 DESCRIPTION="Perl bindings for the gnome-vfs-2.0 library."
